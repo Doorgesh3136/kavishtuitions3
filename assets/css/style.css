@@ -120,3 +120,18 @@ body:has([data-page][data-free]:not([hidden])) .ft{min-height:0}
 .nbx.scr>.nbb{padding-top:min(5vw,9vh)!important;padding-bottom:calc(min(5vw,9vh) + 1.6em)!important}
 @media (min-width:900px){.hero>.fiw{translate:-6vw 7vh}.hero>.fiw>.fi:nth-child(3){right:29vw!important}}
 @media (min-width:900px) and (min-height:560px){.hm-vis{width:min(100%,440px,62vh)}}
+
+/* ===== v6 tweaks ===== */
+@media (min-width:900px){
+.hero>.hsun{right:10vw;top:calc(84px + 7vh);translate:none}
+.hero>.stk{right:calc(var(--pad) + 18vw);top:calc(118px + 7vh);translate:none}
+.hero>.birds{right:35vw;top:22vh;translate:none}
+.lead{grid-template-columns:minmax(240px,400px) minmax(0,620px)!important;justify-content:center;column-gap:clamp(48px,6vw,110px)}
+.mt{flex-wrap:nowrap;align-items:center;gap:clamp(16px,2.2vw,36px);white-space:nowrap}
+.mt a,.mt p{font-size:clamp(.62rem,.75vw,.76rem)}
+.mt p{margin-left:auto}
+}
+#sA .tg:nth-of-type(1){--h:min(9vw,13vh)!important}
+#sA .tg:nth-of-type(2){--h:min(8vw,11vh)!important}
+#sA .tg:nth-of-type(3){--h:min(19vw,24vh)!important}
+#sA .fz{transform-origin:45% 55%}
